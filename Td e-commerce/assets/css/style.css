@@ -1,0 +1,61 @@
+body {
+  background-image: url(./../img/fond.png);
+  background-size: cover;
+}
+
+h1 {
+  color: cornsilk;
+}
+
+h2 {
+  text-decoration: underline;
+  font-style: normal;
+}
+
+.navbar {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.btn-outline-success {
+  color: white;
+}
+
+.bg-fond {
+  background-size: cover;
+  background-position: center center;
+}
+
+.text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+  text-align: justify;
+
+  color: white;
+}
+
+h5 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  color: white;
+}
+
+.border-perso {
+  border-radius: 40px;
+  border: black solid 2px;
+}
+
+.fa-star {
+  color: darkorange;
+}
+
+form {
+  width: 50% !important;
+} 
+.navbar-brand2{
+    color: white;
+    font-size: 3em;
+}
