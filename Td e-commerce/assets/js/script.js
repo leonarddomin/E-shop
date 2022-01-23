@@ -42,10 +42,40 @@ fetch("assets/data/stock.json")
     });
     add();
   });
-
+// Ajout au panier //
 function add() {
-  document.querySelector("#product_399566").addEventListener("click", () => {
-    console.log("Test");
+  document.querySelector('.btn').addEventListener("click", () => {
+        let cart =`
+        <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Liste</th>
+            <th scope="col">Article</th>
+            <th scope="col">Quantité</th>
+            <th scope="col">Prix</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>${title}</td>
+            <td>1</td>
+            <td>${price}</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>${title}</td>
+            <td>1</td>
+            <td>${price}</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>${title}</td>
+            <td>1</td>
+            <td>${price}</td>
+          </tr>
+        </tbody>
+      </table>`
   });
   
 }
